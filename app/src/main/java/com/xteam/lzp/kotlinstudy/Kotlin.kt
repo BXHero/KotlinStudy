@@ -48,7 +48,6 @@ class Kotlin : AppCompatActivity() {
         var i : Int = 0;
         var is_found = false;
         outside@ while(i < poemArray.size){
-
             var j = 0;
             var item = poemArray[i];
             while(j < item.length){
